@@ -35,8 +35,8 @@ h1 .logo-w {
 input[type="submit"] {
   padding: .25rem;
   background-color: #3D7FCF;
-  border: 1px solid #3D7FCF;
-  border-radius: 5px;
+  border: .0625rem solid #3D7FCF;
+  border-radius: .3125rem;
   font-size: .75rem;
   color: white;
 }
@@ -58,4 +58,12 @@ h3 {
   font-size: 1.2rem;
   text-align: center;
   color: #2d2d2d;
+}
+
+aside{
+    float: right;
+}
+
+nav{
+    float: right;
 }
