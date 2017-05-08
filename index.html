@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- TODO: replace with your personal Font Awesome CDN link -->
-    <script src="https://use.fontawesome.com/???.js"></script>
+
 </head>
 
 <body class="container">
@@ -27,30 +26,28 @@
                 <span class="logo-w">W</span>arehouse
             </h1>
         </div>
-        <nav class="col-md-2 col-sm-2 col-xs-2 col-md-offset-4 col-sm-offset-4 col-xs-offset-9">
+        <nav class="col-md-3 col-sm-3 col-xs-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-8">
             <ul class="nav nav-stacked">
                 <li role="presentation" class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Hats</a></li>
                 <li role="presentation" class="active"><a href="#"><i class="fa fa-hand-paper-o" aria-hidden="true"></i> Gloves</a></li>
                 <li role="presentation" class="active"><a href="#"><i class="fa fa-google-wallet" aria-hidden="true"></i> Scarves</a></li>
-                <li class="cart-info presentation">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                </li>
+                <li role="presentation" class="cart-info "><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
             </ul>
         </nav>
-
-
-
     </header>
 
     <main class="row">
         <aside>
-            <form>
+            <form name="emailSignUp" onsubmit="emailNewLetter();">
                 <label>
                     Sign up for our mailing list:
                     <input type="email" name="email">
                 </label>
 
                 <input type="submit" value="Submit">
+                <p>
+                    <label id="thankYou"></label>
+                </p>
             </form>
         </aside>
 

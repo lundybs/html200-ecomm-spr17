@@ -49,3 +49,16 @@ var products = [
   }
 ]
 
+function emailNewLetter()
+{
+    event.preventDefault();
+    if (document.emailSignUp.email.value != "") {
+        var emailName = document.emailSignUp.email.value;
+        console.log("Thanks for signing up for our mailing list, " + emailName + "!");
+        document.getElementById("thankYou").innerHTML = "Thank you for registering with email, " + emailName + "!";
+    } else {
+        console.log("Please enter an email address.");
+        document.getElementById("thankYou").innerHTML = "Please enter an email.";
+    }
+}
+
