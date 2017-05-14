@@ -60,4 +60,7 @@ h3 {
   color: #2d2d2d;
 }
 
-
+input[type=submit]{
+    width: 21rem;
+    height: 12rem;
+}
