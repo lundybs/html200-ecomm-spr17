@@ -1,83 +1,95 @@
 body {
-  font-size: 100%;
-  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 p {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-weight: lighter;
-  color: #2d2d2d;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    color: #2d2d2d;
 }
 
 /* TODO: size images manually so this is not necessary */
 img {
-  max-height: 20rem;
+    max-height: 20rem;
 }
 
 /***************** NAV *****************/
 
 nav a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /**************** HERO *****************/
 
 header img {
-  max-height: 6rem;
+    max-height: 6rem;
 }
 
 h1 .logo-w {
-  font-size: 3.5rem;
+    font-size: 3.5rem;
+    color: blue;
 }
 
 /**************** ASIDE ****************/
 
 input[type="submit"] {
-  padding: .25rem;
-  background-color: #3D7FCF;
-  border: .0625rem solid #3D7FCF;
-  border-radius: .3125rem;
-  font-size: .75rem;
-  color: white;
+    padding: .25rem;
+    background-color: #3D7FCF;
+    border: .0625rem solid #3D7FCF;
+    border-radius: .3125rem;
+    font-size: .75rem;
+    color: white;
 }
 
 /*********** PRODUCTS SECTION ***********/
 
 section {
-  padding: 0 .75rem;
+    padding: 0 .75rem;
 }
 
 h2 {
-  padding-top: 1.5rem;
-  font-size: 2rem;
-  text-align: center;
-  color: #2d2d2d;
+    padding-top: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #2d2d2d;
 }
 
 h3 {
-  font-size: 1.2rem;
-  text-align: center;
-  color: #2d2d2d;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #2d2d2d;
 }
 
-@media(min-width:320px) and (max-width: 680px) 
-{
-    body{
-        padding:0;
+@media(min-width:320px) and (max-width: 680px) {
+    body {
+        padding: 0;
     }
-    header{
-    font-size:smaller;
+
+    h1 {
+        font-size: smaller;
+    }
+
+    img {
+        display: block;
+        margin: auto;
     }
 }
 
-@media (min-width: 681px) and (max-width: 1000px){
-    header{
-        font-size:larger;
+@media (min-width: 681px) and (max-width: 1000px) {
+    h1 {
+        font-size: larger;
+    }
+
+    img {
+        display: block;
+        margin: auto;
     }
 }
 
-@media (min-width: 1001px){
-    nav{
-
+@media (min-width: 1001px) {
+    h1 {
+        font-size: x-large;
     }
+    
 }
