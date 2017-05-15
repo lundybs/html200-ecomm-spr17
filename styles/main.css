@@ -60,7 +60,24 @@ h3 {
   color: #2d2d2d;
 }
 
-input[type=submit]{
-    width: 21rem;
-    height: 12rem;
+@media(min-width:320px) and (max-width: 680px) 
+{
+    body{
+        padding:0;
+    }
+    header{
+    font-size:smaller;
+    }
+}
+
+@media (min-width: 681px) and (max-width: 1000px){
+    header{
+        font-size:larger;
+    }
+}
+
+@media (min-width: 1001px){
+    nav{
+
+    }
 }

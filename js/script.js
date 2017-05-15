@@ -119,8 +119,17 @@ function emailNewLetter() {
 
 var cartArray = [];
 
-function AddToCart() {
+function AddToCart(value) {
     event.preventDefault();
-    var addCart = document.shoppingCart.add.value;
+    var addCart = value
     cartArray.push(addCart);
+}
+
+function RemoveFromCart(value) {
+    event.preventDefault();
+    var removeFromArray = value;
+    for (var i = cartArray.length; i >= 0; i--) {
+        if (cartArray[i] == removeFromArray)
+            cartArray.splice(i, 1);
+    }
 }
