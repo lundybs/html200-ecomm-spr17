@@ -71,3 +71,10 @@ Each weekly assignment will be graded independently. There will not be a final g
 
 ## Testing 
 [update this section with information about the testing steps you took to ensure site quality]
+
+When testing for this website site of mine, there were a few steps and website that were used.  When testing the validity of the html, the w3school validator was used
+to check for flaws or faults in the html code. For the CSS, the css validator from w3chools was used also.  The developer tools in chrome(crtl+shft+i) and in edge(f12)
+were used to see the layout of the page and to see what was affected to the page with css; also the live pages on github were used to see what it would be like when
+view on a live website that was not on a localhost machine.  In the developer tools the console log was used to check the Javascript to see if I was calling the correct
+function for the email and the shopping cart. In the developer tools was a section that used to check for the website's responsiveness at different screen widths.
+WHen it was hosted on github, I used my cell phone to view the website in protrait and in landscape mode.
